@@ -16,7 +16,7 @@ Extract the temprature data for June and December of every year available in the
 
 * The averages of temprature for June and December is only 3.9 degrees diffrent.
 
-!["June Temps"](https://github.com/psidhu42/pewlett-hackard-analysis/blob/main/images/retiring_titles_code.PNG) !["December Temps"](https://github.com/psidhu42/pewlett-hackard-analysis/blob/main/images/retiring_titles_table.PNG)
+!["June Temps"](https://github.com/psidhu42/surfs-up/blob/main/resources/june_temps.PNG) !["December Temps"](https://github.com/psidhu42/surfs-up/blob/main/resources/dec_temps.PNG)
 
 ### Summary
 
