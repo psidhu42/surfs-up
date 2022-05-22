@@ -22,7 +22,7 @@ Extract the temprature data for June and December of every year available in the
 
 Looking at the results for June and December the average temprature only has a diffrence of about 4 degrees. June has an average of about 75 degrees where as December has an average of about 71 degrees. Based on this information it would be relatively safe for Mr. Avy to invest in and open the surf and ice cream shop. However two additional querries could be done to help improve the decision making. One querry could be looking at the percipitation for June and December. Another querry could be to look at a weather station near the location of the proposed shop, to get a more percise understaing of the weather in that location.
 
-An example of the results and code for precipitation queries is provided below, one for June and one for December.
+Examples of the results and code for the precipitation queries are provided below, one for June and one for December.
 
 ### June Precipitation
 
@@ -38,7 +38,6 @@ june_rain = session.query(Measurement.date, Measurement.prcp).filter(extract('mo
 june_rain_df = pd.DataFrame(june_rain, columns=['Date','June Precipitation'])
 
 june_rain_df.describe()
-
 ```
 
 ### December Precipitation
@@ -55,5 +54,4 @@ dec_rain = session.query(Measurement.date, Measurement.prcp).filter(extract('mon
 dec_rain_df = pd.DataFrame(dec_rain, columns=['Date','December Precipitation'])
 
 dec_rain_df.describe()
-
 ```
