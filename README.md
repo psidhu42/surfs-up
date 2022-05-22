@@ -6,21 +6,21 @@ Use SQLalchemy in Jupyter Notebook to view/interact with the 'hawaii.sqlite' dat
 
 ### Purpose
 
-Extract the temprature data for June and December of every year available in the 'hawaii.sqlite' database using Jupyter Notebook and determine the summary statistics for both months. Analyse the summaries in order to determine if the surf and ice cream shop business is sustainable year-round.
+Extract the temperature data for June and December of every year available in the 'hawaii.sqlite' database using Jupyter Notebook and determine the summary statistics for both months. Analyze the summaries in order to determine if the surf and ice cream shop business is sustainable year-round.
 
 ## Results of Analysis
 
-* The amount of temprature readings in December are lower than June by 183.
+* The amount of temperature readings in December are lower than June by 183.
 
-* There is an 8 degree diffrence in the minimum temperature reading between June and December, June being 64 and Decmber being 56.
+* There is an 8 degree difference in the minimum temperature reading between June and December, June being 64 and December being 56.
 
-* The averages of temprature for June and December is only 3.9 degrees diffrent.
+* The averages of temperature for June and December is only 3.9 degrees different.
 
 !["June Temps"](https://github.com/psidhu42/surfs-up/blob/main/resources/june_temps.PNG) !["December Temps"](https://github.com/psidhu42/surfs-up/blob/main/resources/dec_temps.PNG)
 
 ## Summary
 
-Looking at the results for June and December the average temprature only has a diffrence of about 4 degrees. June has an average of about 75 degrees where as December has an average of about 71 degrees. Based on this information it would be relatively safe for Mr. Avy to invest in and open the surf and ice cream shop. However two additional querries could be done to help improve the decision making. One querry could be looking at the percipitation for June and December. Another querry could be to look at a weather station near the location of the proposed shop, to get a more percise understaing of the weather in that location.
+Looking at the results for June and December the average temperature only has a difference of about 4 degrees. June has an average of about 75 degrees whereas December has an average of about 71 degrees. Based on this information it would be relatively safe for Mr. Avy to invest in and open the surf and ice cream shop. However, two additional queries could be done to help improve the decision making. One query could be looking at the precipitation for June and December. Another query could be to look at a weather station near the location of the proposed shop, to get a more precise understanding of the weather in that location.
 
 Examples of the results and code for the precipitation queries are provided below, one for June and one for December.
 
