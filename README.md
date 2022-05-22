@@ -26,7 +26,7 @@ Examples of the results and code for the precipitation queries are provided belo
 
 ### June Precipitation
 
-!["June Precipitation"](https://github.com/psidhu42/surfs-up/blob/main/resources/june_temps.PNG)
+!["June Precipitation"](https://github.com/psidhu42/surfs-up/blob/main/resources/June_Precipitation.PNG)
 
 ```
 # Write a query that filters the Measurement table to retrieve the precipitation for the month of June.
@@ -42,7 +42,7 @@ june_rain_df.describe()
 
 ### December Precipitation
 
-!["December Precipitation"](https://github.com/psidhu42/surfs-up/blob/main/resources/dec_temps.PNG)
+!["December Precipitation"](https://github.com/psidhu42/surfs-up/blob/main/resources/Dec_Precipitation.PNG)
 
 ```
 # Write a query that filters the Measurement table to retrieve the precipitation for the month of December.
